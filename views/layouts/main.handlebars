@@ -11,25 +11,26 @@
     integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
 
-<body class="flex-column min-100-vh">
-  <nav class="navbar">
-    <ul class="links">
-      <li class="li-inline nav-item"><a href="/" class="link-item">Home</a></li>
-      <li class="li-inline nav-item"><a href="/dashboard" class="link-item">Dashboard</a></li>
-      <li class="li-inline nav-item"><a href="/login" class="link-item">Login</a></li>
-      <li class="li-inline nav-item"><a href="#" id="logout-link" class="link-item">Logout</a></li>
-    </ul>
-  </nav>
-  <header class="hero">
-    <h1 class="app-title"><a href="/">The Tech Blog</a></h1>
-  </header>
-
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <ul class="links">
+        <li class="li-inline nav-item"><a href="/" class="link-item">Home</a></li>
+        <li class="li-inline nav-item"><a href="/dashboard" class="link-item">Dashboard</a></li>
+        <li class="li-inline nav-item"><a href="/login" class="link-item">Login</a></li>
+        <li class="li-inline nav-item"><a href="#" id="logout-link" class="link-item">Logout</a></li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <h1 class="app-title"><a href="/">The Tech Blog</a></h1>
+    </header>
+  </div>
   <main class="col-auto">
     {{{body}}}
   </main>
 
 </body>
-<footer class="flex-row justify-center">
+<footer>
   &copy; The Tech Blog Folks
 </footer>
 

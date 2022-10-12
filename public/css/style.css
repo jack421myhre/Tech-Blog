@@ -2,9 +2,8 @@ body {
     background-color: #dad7cd;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    justify-content: center;   
 }
-
 
 
 .links {
@@ -14,18 +13,28 @@ body {
 }
 
 .links li {
-    margin-right: 8px;
+    margin-right: 12px;
     font-size: 18px;
     list-style-type: none;
 }
 
+.links li:nth-last-child() {
+    margin-right: 0;
+
+}
+
 .link-item {
     text-decoration: none;
-    color: #344e41;
+    background-color: #344e41;
+    color: #dad7cd;
+    border: 2px solid #344e41;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 .link-item:hover {
-    color: #588157;
+    box-shadow: -1px 13px 18px -8px rgba(0,0,0,0.75);
+    transition: 0.3s;
 }
 
 .app-title a {

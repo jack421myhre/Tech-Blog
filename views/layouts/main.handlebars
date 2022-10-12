@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Tech Blog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"
@@ -12,8 +14,9 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar">
+  <header class="d-flex flex-md-row justify-content-between">
+    <h1 class="app-title"><a href="/">The Tech Blog</a></h1>
+    <nav>
       <ul class="links">
         <li class="li-inline nav-item"><a href="/" class="link-item">Home</a></li>
         <li class="li-inline nav-item"><a href="/dashboard" class="link-item">Dashboard</a></li>
@@ -21,16 +24,14 @@
         <li class="li-inline nav-item"><a href="#" id="logout-link" class="link-item">Logout</a></li>
       </ul>
     </nav>
-    <header class="hero">
-      <h1 class="app-title"><a href="/">The Tech Blog</a></h1>
-    </header>
+  </header>
   </div>
   <main class="col-auto">
     {{{body}}}
   </main>
 
 </body>
-<footer>
+<footer class="footer">
   &copy; The Tech Blog Folks
 </footer>
 

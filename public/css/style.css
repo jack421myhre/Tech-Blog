@@ -1,10 +1,10 @@
 body {
-    background-color: #dad7cd;
+    background-color: #001d3d;
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    justify-content: center;
+    margin: 12px;
 }
-
 
 .links {
     display: flex;
@@ -25,23 +25,35 @@ body {
 
 .link-item {
     text-decoration: none;
-    background-color: #344e41;
-    color: #dad7cd;
-    border: 2px solid #344e41;
+    background-color: #001d3d;
+    color: #e9ecef;
+    border: 2px solid #ffc300;
     border-radius: 8px;
     padding: 4px;
 }
 
 .link-item:hover {
+    color: #ffc300;
+    text-decoration: none;
     box-shadow: -1px 13px 18px -8px rgba(0,0,0,0.75);
     transition: 0.3s;
 }
 
 .app-title a {
-    color: #344e41;
+    color: #ffc300;
+    font-size: 64px;
     text-decoration: none;
 }
 
 .app-title a:hover {
-    color: #588157;
+    color: #fdec6e;
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.footer {
+    color: #e9ecef;
 }

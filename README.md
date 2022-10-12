@@ -21,7 +21,9 @@ This repository is Unlicensed and free to use.
 
 http://unlicense.org/
 ## Contributors
-Co-worked with Roy Logan and Devan Parkison
+Co-worked with Roy Logan and Devan Parkison.
+
+The Models and Views folder were provided by the instructional team.
 ## Tests
 none
 ## Questions?

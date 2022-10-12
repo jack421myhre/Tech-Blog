@@ -4,7 +4,9 @@ const withAuth = require('../utils/auth');
 
 // /dashboard
 
-router.get('/', withAuth, async (req, res) => {
+// withAuth,
+
+router.get('/', async (req, res) => {
     try {
         const allPosts = await Post.findAll({});
         const userPosts = allPosts.map((post) => post.get({ plain: true }));

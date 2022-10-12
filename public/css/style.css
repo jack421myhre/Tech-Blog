@@ -1,0 +1,38 @@
+body {
+    background-color: #dad7cd;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.links li {
+    margin-right: 8px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.link-item {
+    text-decoration: none;
+    color: #344e41;
+}
+
+.link-item:hover {
+    color: #588157;
+}
+
+.app-title a {
+    color: #344e41;
+    text-decoration: none;
+}
+
+.app-title a:hover {
+    color: #588157;
+}

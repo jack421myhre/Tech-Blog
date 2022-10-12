@@ -1,10 +1,10 @@
 const router = require('express').Router();
 const { User, Post, Comment } = require('../models');
-
+const withAuth = require('../utils/auth');
 
 // /dashboard
 
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
     try {
         const allPosts = await Post.findAll({});
         const userPosts = allPosts.map((post) => post.get({ plain: true }));
